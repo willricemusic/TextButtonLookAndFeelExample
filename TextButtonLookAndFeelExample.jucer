@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="JrHIpn" name="TextButtonLookAndFeelExample" projectType="guiapp"
+              version="1.0.0" bundleIdentifier="com.yourcompany.TextButtonLookAndFeelExample"
+              includeBinaryInAppConfig="1" jucerVersion="4.2.1">
+  <MAINGROUP id="ZbBf0q" name="TextButtonLookAndFeelExample">
+    <GROUP id="{23A1C561-587E-580B-2D54-8BC26C5B3021}" name="Source">
+      <FILE id="LSJ4fR" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+      <FILE id="hGfHPa" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="LFIjtV" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="j0VwNh" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="TextButtonLookAndFeelExample"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="TextButtonLookAndFeelExample"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../SDKs/juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
