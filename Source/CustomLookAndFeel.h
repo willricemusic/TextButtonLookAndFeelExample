@@ -20,7 +20,7 @@ public:
     Font getTextButtonFont (TextButton&, int) override
     {
         return Font (10.0f);
-    };
+    }
     
 private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (CustomLookAndFeel)
